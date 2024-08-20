@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Greetings! How can I support you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Let me know if you need anything else.",
+        "Goodbye! Feel free to reach out if you have more questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "You're welcome! If you need anything else, just ask."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "Order status",
+        "Can you tell me the status of my order?",
+        "What's the status of my order?",
+        "Track my package"
+      ],
+      "responses": [
+        "Please provide your order ID to check the status.",
+        "I can help with that! Could you please share your order ID?",
+        "Sure! I just need your order ID to check the status."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "How can I return a product?",
+        "Can I return an item?",
+        "I'd like to return a product",
+        "What's your policy on returns?"
+      ],
+      "responses": [
+        "Our return policy allows returns within 30 days of purchase. Would you like to initiate a return?",
+        "You can return most items within 30 days of receiving them. Do you need help with a return?",
+        "We accept returns within 30 days. Please provide your order ID to start the process."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "What are your shipping options?",
+        "How long does shipping take?",
+        "Do you offer free shipping?",
+        "Tell me about your shipping methods",
+        "How much does shipping cost?"
+      ],
+      "responses": [
+        "We offer standard, express, and next-day shipping. Standard shipping is free on orders over $50.",
+        "Shipping times vary depending on your location and selected shipping method. Standard shipping is free on orders over $50.",
+        "We provide free standard shipping on orders over $50. Other shipping options are available at checkout."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with PayPal?",
+        "Do you accept credit cards?",
+        "What payment options are available?",
+        "How can I pay for my order?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit cards, debit cards, PayPal, and Apple Pay.",
+        "You can pay using credit/debit cards, PayPal, or Apple Pay.",
+        "We support payments via credit cards, PayPal, and Apple Pay."
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Can you tell me more about this product?",
+        "What are the features of this product?",
+        "Is this product available?",
+        "I want to know more about this item",
+        "Tell me about this product"
+      ],
+      "responses": [
+        "Sure! Please provide the product name or ID so I can assist you further.",
+        "I'd be happy to help! Which product would you like more information on?",
+        "Please share the product name or ID for more details."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint",
+        "I want to make a complaint",
+        "Your service is terrible",
+        "I'm not happy with your service",
+        "I want to speak to a manager"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you please provide more details so I can assist you better?",
+        "I apologize for the inconvenience. Please share your issue and I'll do my best to resolve it.",
+        "I understand your frustration. Let me know what happened so I can help fix this."
+      ]
+    }
+  ]
+}
