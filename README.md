@@ -78,6 +78,9 @@ User: Hi!
 Bot: Hello! How can I help you today?
 ```
 
+![image](https://github.com/user-attachments/assets/53245e7d-5b4f-4493-9a6f-e545856b795f)
+
+
 ## File Structure
 
 - `intents.json`: Contains the training data for the chatbot.
