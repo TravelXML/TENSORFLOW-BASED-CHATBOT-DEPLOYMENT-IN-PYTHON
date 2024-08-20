@@ -99,5 +99,5 @@ Bot: Hello! How can I help you today?
 We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
 
 
-Happy Coding
+Happy Coding!
 
